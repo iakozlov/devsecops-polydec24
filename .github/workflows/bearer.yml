@@ -1,9 +1,6 @@
 name: Bearer
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
 
 permissions:
   contents: read
