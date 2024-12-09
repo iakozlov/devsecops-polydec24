@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name: Print hello_worlsd content
+      - name: Print hello_world.txt content
         uses: actions/checkout@v3
       - run: echo "$(cat hello_world.txt)"
