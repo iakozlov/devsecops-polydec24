@@ -19,6 +19,11 @@ jobs:
       
       - name: Run SCA
         run: npm audit
+      
+
+      - name: Bearer SACT
+        uses: actions/checkout@v4
+        uses: bearer/bearer-action@v2
 
       - name: Build Application
         run: npm run build
